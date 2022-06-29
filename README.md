@@ -1,5 +1,5 @@
 
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/support-ukraine.svg?t=1" />](https://supportukrainenow.org)
+## This package is a work in progress. It is not yet ready for use in production.
 
 # A Filament Admin implementation of oddvalue/laravel-drafts
 
@@ -8,7 +8,7 @@
 [![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/oddvalue/filament-drafts/Check%20&%20fix%20styling?label=code%20style)](https://github.com/oddvalue/filament-drafts/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/oddvalue/filament-drafts.svg?style=flat-square)](https://packagist.org/packages/oddvalue/filament-drafts)
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
+Add support for drafts to your filament resources.
 
 ## Support us
 

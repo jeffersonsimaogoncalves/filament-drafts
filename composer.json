@@ -17,10 +17,10 @@
     ],
     "require": {
         "php": "^8.0",
-        "spatie/laravel-package-tools": "^1.9.2",
+        "filament/filament": "^2.13",
         "illuminate/contracts": "^9.0",
-        "oddvalue/laravel-drafts": "dev-main",
-        "filament/filament": "^2.13"
+        "oddvalue/laravel-drafts": "^0.0",
+        "spatie/laravel-package-tools": "^1.9.2"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.8",
@@ -29,6 +29,7 @@
         "orchestra/testbench": "^7.0",
         "pestphp/pest": "^1.21",
         "pestphp/pest-plugin-laravel": "^1.1",
+        "pestphp/pest-plugin-livewire": "^1.0",
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan-deprecation-rules": "^1.0",
         "phpstan/phpstan-phpunit": "^1.0",
@@ -43,7 +44,8 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Oddvalue\\FilamentDrafts\\Tests\\": "tests"
+            "Oddvalue\\FilamentDrafts\\Tests\\": "tests/src",
+            "Oddvalue\\FilamentDrafts\\Tests\\Database\\Factories\\": "tests/database/factories"
         }
     },
     "scripts": {
